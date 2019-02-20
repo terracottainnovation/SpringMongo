@@ -1,4 +1,3 @@
 rootProject.name = 'SpringMongo'
-include 'Weather'
-include 'Facebook'
+include 'application'
 
