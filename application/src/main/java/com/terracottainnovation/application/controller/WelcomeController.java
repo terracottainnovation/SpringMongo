@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 
 	
-	@RequestMapping(path="/welcome.do", produces ="application/json")
+	@RequestMapping(path="/welcome", produces ="application/json")
 	public @ResponseBody
 	Result welcomeString() {
 		Result r = new Result();

@@ -6,7 +6,7 @@ package com.terracottainnovation.application.repositories;
 import java.util.List;
 
 import com.terracottainnovation.application.entity.Person;
-//import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.Repository;
 
 
 
@@ -16,7 +16,7 @@ import com.terracottainnovation.application.entity.Person;
  *
  */
 
-public interface PersonRepository /*extends Repository<Person, Integer>*/{
+public interface PersonRepository extends Repository<Person, Integer>{
 
 	public void delete (Person person);
 	public List<Person> findAll();
