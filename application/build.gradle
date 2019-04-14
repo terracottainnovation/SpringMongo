@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.1.3.RELEASE'
 	id 'java'
 	id 'idea'
+	id 'eclipse'
 }
 
 springBoot {
